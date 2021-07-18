@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <meta name="description" content="" />
 </head>
 <body>
   <header>
-    <a href="">Austin Baxter</a>
-    <nav>
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+      <a href="">Austin Baxter</a>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#work">Work</a></li>
@@ -19,5 +20,26 @@
       </ul>
     </nav>
   </header>
+  <div class="px-4 hero-padding text-center">
+    <img class="d-block mx-auto mb-4 hero-img" src="img/coding.jpg" alt="" width="250" height="200">
+    <h1 class="display-5 fw-bold">hero</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.</p>
+    </div>
+  </div>
+  <div class="about-container">
+    <div class="about-header">
+      <h1 class="about-me">About me</h1>
+    </div>
+    <div class="photo-container">
+      <img class="about-photo" src="img/coding.jpg" alt="" width="250" height="200">
+    </div>
+    <div class="about-text">
+      <p class="about-p">Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.</p>
+    </div>
+  </div>
+  <div class="project-head">
+    <h1>Projects</h1>
+  </div>
 </body>
 </html>
